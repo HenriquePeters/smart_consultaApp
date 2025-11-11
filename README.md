@@ -1,16 +1,17 @@
-# smart_consulta
+# SmartConsulta - Flutter Template
 
-A new Flutter project.
+Projeto mínimo funcional com Supabase.
 
-## Getting Started
+## Setup
+1. Coloque sua logo em `assets/SmartConsulta_Logo.png`.
+2. Configure Supabase com tabelas básicas:
 
-This project is a starting point for a Flutter application.
+- doctors: id (uuid), name (text), specialty (text)
+- appointments: id (uuid), patient_id (uuid), doctor_id (uuid), date (timestamp), status (text)
 
-A few resources to get you started if this is your first Flutter project:
+3. Substitua as chaves em `lib/services/supabase_service.dart`.
+4. `flutter pub get`
+5. `flutter run`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Observações
+- Este template é um ponto de partida. Para produção: autenticação robusta, tratamento de horários (fuso/hora), validações, notificações (FCM) e regras RLS no Supabase são necessárias.
