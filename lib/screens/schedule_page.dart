@@ -3,6 +3,8 @@ import 'package:table_calendar/table_calendar.dart';
 import '../models/doctor.dart';
 import '../services/supabase_service.dart';
 import '../models/appointment.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+
 
 class SchedulePage extends StatefulWidget {
   final Doctor? doctor;
