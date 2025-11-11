@@ -3,7 +3,7 @@
 Projeto mínimo funcional com Supabase.
 
 ## Setup
-1. Coloque sua logo em `assets/SmartConsulta_Logo.png`.
+1. Coloque a logo em `assets/SmartConsulta_Logo.png`.
 2. Configure Supabase com tabelas básicas:
 
 - doctors: id (uuid), name (text), specialty (text)

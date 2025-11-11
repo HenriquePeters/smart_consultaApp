@@ -12,6 +12,8 @@ void main() async {
     anonKey: SupabaseService.SUPABASE_ANON_KEY,
   );
 
+  await NotificationService.initialize();
+
   runApp(const SmartConsultaApp());
 }
 

@@ -4,8 +4,8 @@ import '../models/appointment.dart';
 
 class SupabaseService {
   // Substitua pelas suas chaves (nunca comitar em repositório público)
-  static const SUPABASE_URL = 'https://YOUR_PROJECT.supabase.co';
-  static const SUPABASE_ANON_KEY = 'YOUR_ANON_KEY';
+  static const SUPABASE_URL = 'https://mgetrzgpwpwstsvjksxv.supabase.co';
+  static const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1nZXRyemdwd3B3c3Rzdmprc3h2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI4OTA1NTYsImV4cCI6MjA3ODQ2NjU1Nn0.VHR6MixRIO3M7-nXCMrt2bv62WZNGvVMnFFZaGtlwJI';
 
   final SupabaseClient client = Supabase.instance.client;
 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "906994281228",
+    "project_id": "smartconsultaapp",
+    "storage_bucket": "smartconsultaapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906994281228:android:75fd8f0f801dd4b3b97729",
+        "android_client_info": {
+          "package_name": "com.hil.smart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxiieSjkEI-uYXV5fDKYFQOgsasN3gMOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
